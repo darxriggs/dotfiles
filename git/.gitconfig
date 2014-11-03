@@ -1,0 +1,39 @@
+[include]
+    path = ~/.gitconfig.local
+
+[core]
+    editor = vim
+
+[user]
+    # name = ...    # from .gitconfig.local
+    # email = ...   # from .gitconfig.local
+
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+
+[color "diff"]
+    meta = black bold
+    frag = blue bold
+    old = red bold
+    new = green bold
+
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+
+[alias]
+    st = status
+    ci = commit
+    co = checkout
+    lf = log --name-status
+    lp = log --patch
+    ap = add --patch
+    diffs = diff --staged
