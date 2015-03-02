@@ -117,6 +117,7 @@ filetype plugin indent on
 "set listchars=tab:>.,trail:.,extends:#,nbsp:.
 
 au BufNewFile,BufRead *.t set filetype=perl
+au BufNewFile,BufRead *.gradle set filetype=groovy
 
 execute pathogen#infect()
 execute pathogen#helptags()
