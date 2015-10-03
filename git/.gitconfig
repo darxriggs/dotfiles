@@ -32,8 +32,12 @@
 [alias]
     st = status
     ci = commit
+    cia = commit --amend
     co = checkout
     lf = log --name-status
     lp = log --patch
+    ll = log --graph --oneline --decorate --all
     ap = add --patch
+    fa = fetch --all --prune
+    pf = push --force
     diffs = diff --staged
