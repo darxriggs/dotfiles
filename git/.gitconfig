@@ -41,3 +41,6 @@
     fa = fetch --all --prune
     pf = push --force
     diffs = diff --staged
+
+[push]
+    default = simple
